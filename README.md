@@ -19,6 +19,11 @@ sudo apt update
 sudo apt install elasticsearch
 ```
 
+log Elasticsearch
+```
+cd /var/log/elasticsearch/
+```
+
 ## Step 2 — Configuring Elasticsearch
 ```
 vi /etc/elasticsearch/elasticsearch.yml
